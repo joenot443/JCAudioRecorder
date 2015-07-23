@@ -99,7 +99,7 @@
             [self initializeAudioRecorder];
             [self updateTimeRemainingLabel];
             //Set an NSTimer to go off every 1 second which will call updateAudioMeter
-            self.recordLevelTimer = [NSTimer scheduledTimerWithTimeInterval:1.0f target:self selector:@selector(updateAudioMeter) userInfo:nil repeats:YES];
+            self.recordLevelTimer = [NSTimer scheduledTimerWithTimeInterval:1.0f target:self selector:@selector(updateTimeRemainingLabel) userInfo:nil repeats:YES];
             //Record for the MAXTIME duration, or until the user presses stop
             [self.audioRecorder recordForDuration:self.maxTime];
             [self startFlashingbutton];
