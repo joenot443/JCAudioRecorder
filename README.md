@@ -8,7 +8,7 @@ I built this for a previous project and thought it worked pretty effectively so 
 
 It's *heavily* commented, largely for the benefit of new users reading it who want to get more familiar with AFAudioFoundation.
 
-##U#sage
+###Usage
 
 Just add the image files, JCAudioRecorder.h/.m and either copy the .xib from the Storyboard or build your own. 
 Outlet as necessary. Be sure to add AFAudioFoundation.framework to your project too.
